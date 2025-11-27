@@ -1,6 +1,6 @@
 # ChatBet Playwright Assessment (JS)
 
-## Resumen en 1 frase
+## Resumen
 Proyecto con pruebas E2E automatizadas usando Playwright Request para validar flujos de apuestas contra la API mock.
 
 ## Requisitos
@@ -43,7 +43,7 @@ chatbet-playwright/
 - Edita `configs/*.json` según quieras (sport_id, stake, selections).
 - Luego vuelve a correr `npm test`.
 
-## Notas técnicas (explicado simple)
+## Notas técnicas
 - Uso `decimal.js` para cálculos con dinero (evita errores de coma flotante).
 - Los tests usan `src/apiClient.js` como cliente HTTP centralizado.
 - Reporte en `playwright-report/`.

@@ -3,7 +3,7 @@
 ## Resumen simple
 Diseño para recibir datos en tiempo real desde un sportsbook (WebSocket), almacenarlos y procesarlos de forma escalable y fiable.
 
-## Arquitectura (texto)
+## Arquitectura
 WebSocket sources → Ingestion (WS clients) → Message Queue (Kafka) → Stream Processors (consumers / Flink) → Storage (ClickHouse / Postgres) + Cache (Redis) → Consumers / Analytics
 
 ## Tecnologías propuestas
@@ -14,7 +14,7 @@ WebSocket sources → Ingestion (WS clients) → Message Queue (Kafka) → Strea
 - Cache: Redis
 - Lenguajes: Go/Java para alta performance; Node/Python para prototipos
 
-## Modelo de datos (ejemplo)
+## Modelo de datos
 - `fixtures`: fixture_id, sport_id, teams, start_time, status
 - `odds_events`: id, fixture_id, market, odd, timestamp, source
 - `bets`: bet_id, user_id, stake, potential_winnings, placed_at

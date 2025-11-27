@@ -7,11 +7,7 @@ export default defineConfig({
     ['html', { outputFolder: 'playwright-report', open: 'never' }],
     ['json', { outputFile: 'playwright-report/results.json' }]
   ],
-  use: {
-    baseURL: process.env.BASE_URL || 'https://v46fnhvrjvtlrsmnismnwhdh5y0lckdl.lambda-url.us-east-1.on.aws',
-    ignoreHTTPSErrors: true,
-    actionTimeout: 15000
-  },
+
   projects: [
   {
     name: 'api-tests',
