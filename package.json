@@ -1,0 +1,16 @@
+{
+  "name": "chatbet-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "show-report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "decimal.js": "^10.4.3"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\efsol\\Documents\\Efrain\\chatBetTest\\playwright.config.js",
+    "rootDir": "C:/Users/efsol/Documents/Efrain/chatBetTest",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "playwright-report/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/efsol/Documents/Efrain/chatBetTest/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "api-tests",
+        "name": "api-tests",
+        "testDir": "C:/Users/efsol/Documents/Efrain/chatBetTest",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.57.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\combo-bet.spec.js",
+      "file": "tests/combo-bet.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Combo bet end-to-end (parameterized)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "api-tests",
+              "projectName": "api-tests",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "interrupted",
+                  "duration": 62574,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-27T21:03:31.290Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "ffaf584f194ce63aa747-1f0c0181f18d227e90d6",
+          "file": "tests/combo-bet.spec.js",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\error-flow.spec.js",
+      "file": "tests/error-flow.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Error validation flow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "api-tests",
+              "projectName": "api-tests",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "290a0caf91b9aeb0fed9-b8de2d4ba0171a1a2283",
+          "file": "tests/error-flow.spec.js",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\simple-bet.spec.js",
+      "file": "tests/simple-bet.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Simple bet end-to-end (parameterized)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "api-tests",
+              "projectName": "api-tests",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "78703c573551079526c6-01f54082c4b6220c79f5",
+          "file": "tests/simple-bet.spec.js",
+          "line": 7,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-11-27T21:03:28.591Z",
+    "duration": 65336.342999994755,
+    "expected": 0,
+    "skipped": 3,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
